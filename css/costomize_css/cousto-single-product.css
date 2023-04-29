@@ -80,8 +80,6 @@ html {
 .carousel.dragging img {
   pointer-events: none;
 }
-
-/*  */
 .product-small-img img {
   height: 92px;
   margin: 10px 0;
@@ -113,13 +111,13 @@ html {
   background-size: cover;
   background-position: center center;
 }
-.container i {
+.rapings i {
   margin-left: 22px;
   font-size: 18px;
   cursor: pointer;
 }
-.container i:hover,
-.container i:active {
+.rapings i:hover,
+.rapings i:active {
   color: #c03333;
 }
 
@@ -150,49 +148,15 @@ html {
 }
 
 @media only screen and (max-width: 992px) {
-  .img-container {
-    display: none;
-  }
-  .rapings i {
-    display: none;
-  }
-  .rapings {
-    width: 100%;
-  }
-  .product-small-img {
-    max-width: 100%;
-  }
-  .product-small-img img {
-    height: 385px;
-    min-width: fit-content;
-  }
-  #slider {
-    width: 440px;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-  }
-
-  #slider::-webkit-scrollbar {
-    width: 8px;
-  }
-
-  #slider::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  }
-
-  #slider::-webkit-scrollbar-thumb {
-    background-color: #dede2e;
-    outline: 1px solid slategrey;
-    border-radius: 100px;
-  }
-
-  #slider::-webkit-scrollbar-thumb:hover {
-    background-color: #18b5ce;
+  .product {
+    text-align: center;
   }
   .container_inear {
     margin-bottom: 0px;
     background: none;
+  }
+  .rapings i {
+    margin-left: 0px;
   }
   .fixed-footer {
     width: 100%;
@@ -201,5 +165,45 @@ html {
     left: 0;
     bottom: 0;
     z-index: none;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .product-small-img {
+    max-width: 100px;
+    height: 350px;
+  }
+  .product-small-img img {
+    height: 90px;
+  }
+  .rapings i {
+    margin-left: 0px;
+  }
+  .img-container {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .img-container img {
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .product-small-img {
+    max-width: 100px;
+    height: 330px;
+  }
+  .product-small-img img {
+    height: 88px;
+  }
+  .rapings i {
+    margin-left: 0px;
+  }
+  .img-container {
+    width: 380px;
+    height: 380px;
+    overflow: hidden;
+  }
+  .img-container img {
+    height: 380px;
   }
 }

@@ -5,7 +5,7 @@ function myfunc(smallImg) {
 
 const carousel = document.querySelector(".product-small-img"),
   firstImg = carousel.querySelectorAll("img")[0],
-  arrowIcons = document.querySelectorAll(".container i");
+  arrowIcons = document.querySelectorAll(".rapings i");
 
 let isDragStart = false,
   isDragging = false,
