@@ -123,7 +123,7 @@ html {
   color: #c03333;
 }
 
-.nav-link:hover {
+.re-bg-color .nav-link:hover {
   background-color: hsla(344, 90%, 48%, 0.253) !important;
   color: #333 !important;
 }
