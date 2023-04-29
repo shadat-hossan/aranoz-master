@@ -165,3 +165,16 @@ html {
     background-color: #18b5ce;
   }
 }
+
+.nav-link:hover {
+  background-color: hsla(344, 90%, 48%, 0.253) !important;
+  color: #333 !important;
+}
+
+.fo-bg-color {
+  background: #000000;
+  color: #fff;
+}
+.single_footer_part h4 {
+  color: #fff;
+}
