@@ -7872,18 +7872,26 @@ h6 {
 /*# sourceMappingURL=style.css.map */
 
 /* single product item image is fixed  */
-.single_product_item img {
-  width: 100%;
-  height: 210px;
-}
 
+.si-or-it-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+.single_product_item img {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+}
 @media only screen and (min-width: 1200px) {
-  .single_product_item img {
-    height: 250px;
+  .si-or-it-container {
+    height: 280px !important;
   }
 }
 @media only screen and (max-width: 577px) {
-  .single_product_item img {
+  .si-or-it-container {
     height: 400px !important;
   }
 }
