@@ -3,18 +3,27 @@ html {
 }
 .bg-stacky {
   width: 100%;
-  background: #fff;
+  background: #ecfdff;
   position: fixed;
   top: 0;
   left: 0;
+  transition: 200ms ease-in-out background-color;
 }
 
 @media only screen and (max-width: 992px) {
   .bg-stacky {
     width: 100%;
-    background: #fff;
+    background: #ecfdff;
     position: absolute;
     top: 0;
     left: 0;
   }
+}
+
+.actives {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
 }

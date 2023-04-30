@@ -122,8 +122,8 @@ html {
 }
 
 .re-bg-color .nav-link:hover {
-  background-color: hsla(344, 90%, 48%, 0.253) !important;
-  color: #333 !important;
+  background-color: hsl(344, 95%, 60%) !important;
+  color: #fff !important;
 }
 
 .fo-bg-color {
@@ -167,6 +167,21 @@ html {
     z-index: none;
   }
 }
+@media only screen and (min-width: 992px) {
+  .breadcrumb .breadcrumb_iner .breadcrumb_iner_item p {
+    margin-top: 52px;
+    font-size: 15px;
+    color: #777777;
+  }
+  .product {
+    margin-left: -10px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .product {
+    margin-left: -66px;
+  }
+}
 @media only screen and (max-width: 560px) {
   .product-small-img {
     max-width: 100px;
@@ -190,20 +205,20 @@ html {
 @media only screen and (max-width: 440px) {
   .product-small-img {
     max-width: 100px;
-    height: 330px;
+    height: 300px;
   }
   .product-small-img img {
-    height: 88px;
+    height: 80px;
   }
   .rapings i {
     margin-left: 0px;
   }
   .img-container {
-    width: 380px;
-    height: 380px;
+    width: 350px;
+    height: 350px;
     overflow: hidden;
   }
   .img-container img {
-    height: 380px;
+    height: 350px;
   }
 }
