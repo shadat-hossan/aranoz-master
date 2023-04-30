@@ -3,7 +3,7 @@ html {
 }
 .bg-stacky {
   width: 100%;
-  background: #ecfdff;
+  background-color: transparent;
   position: fixed;
   top: 0;
   left: 0;
@@ -13,7 +13,7 @@ html {
 @media only screen and (max-width: 992px) {
   .bg-stacky {
     width: 100%;
-    background: #ecfdff;
+    background-color: transparent;
     position: absolute;
     top: 0;
     left: 0;

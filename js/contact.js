@@ -89,7 +89,7 @@ $(document).ready(function () {
 const stackyNav = document.querySelector(".bg-stacky");
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY >= 570) {
+  if (window.scrollY >= 1) {
     stackyNav.classList.add("actives");
   } else {
     stackyNav.classList.remove("actives");
