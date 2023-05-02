@@ -26,43 +26,43 @@ hideFliter.addEventListener("click", () => {
 function hide(hide) {
   if (hide.id == 0) {
     listsection[0].classList.toggle("toggle");
-    hide.childNodes[1].classList.remove("fa-chevron-up");
-    hide.childNodes[1].classList.add("fa-chevron-down");
+    hide.childNodes[1].classList.toggle("fa-chevron-up");
+    hide.childNodes[1].classList.toggle("fa-chevron-down");
   } else if (hide.id == 1) {
     listsection[1].classList.toggle("toggle");
-    hide.childNodes[1].classList.remove("fa-chevron-up");
-    hide.childNodes[1].classList.add("fa-chevron-down");
+    hide.childNodes[1].classList.toggle("fa-chevron-up");
+    hide.childNodes[1].classList.toggle("fa-chevron-down");
   } else if (hide.id == 2) {
     listsection[2].classList.toggle("toggle");
-    hide.childNodes[1].classList.remove("fa-chevron-up");
-    hide.childNodes[1].classList.add("fa-chevron-down");
+    hide.childNodes[1].classList.toggle("fa-chevron-up");
+    hide.childNodes[1].classList.toggle("fa-chevron-down");
   } else if (hide.id == 3) {
     listsection[3].classList.toggle("toggle");
-    hide.childNodes[1].classList.remove("fa-chevron-up");
-    hide.childNodes[1].classList.add("fa-chevron-down");
+    hide.childNodes[1].classList.toggle("fa-chevron-up");
+    hide.childNodes[1].classList.toggle("fa-chevron-down");
   } else if (hide.id == 4) {
     listsection[4].classList.toggle("toggle");
-    hide.childNodes[1].classList.remove("fa-chevron-up");
-    hide.childNodes[1].classList.add("fa-chevron-down");
+    hide.childNodes[1].classList.toggle("fa-chevron-up");
+    hide.childNodes[1].classList.toggle("fa-chevron-down");
   } else if (hide.id == 5) {
     listsection[5].classList.toggle("toggle");
-    hide.childNodes[1].classList.remove("fa-chevron-up");
-    hide.childNodes[1].classList.add("fa-chevron-down");
+    hide.childNodes[1].classList.toggle("fa-chevron-up");
+    hide.childNodes[1].classList.toggle("fa-chevron-down");
   } else if (hide.id == 6) {
     listsection[6].classList.toggle("toggle");
-    hide.childNodes[1].classList.remove("fa-chevron-up");
-    hide.childNodes[1].classList.add("fa-chevron-down");
+    hide.childNodes[1].classList.toggle("fa-chevron-up");
+    hide.childNodes[1].classList.toggle("fa-chevron-down");
   } else if (hide.id == 7) {
     listsection[7].classList.toggle("toggle");
-    hide.childNodes[1].classList.remove("fa-chevron-up");
-    hide.childNodes[1].classList.add("fa-chevron-down");
+    hide.childNodes[1].classList.toggle("fa-chevron-up");
+    hide.childNodes[1].classList.toggle("fa-chevron-down");
   } else if (hide.id == 8) {
     listsection[8].classList.toggle("toggle");
-    hide.childNodes[1].classList.remove("fa-chevron-up");
-    hide.childNodes[1].classList.add("fa-chevron-down");
+    hide.childNodes[1].classList.toggle("fa-chevron-up");
+    hide.childNodes[1].classList.toggle("fa-chevron-down");
   } else if (hide.id == 9) {
     listsection[9].classList.toggle("toggle");
-    hide.childNodes[1].classList.remove("fa-chevron-up");
-    hide.childNodes[1].classList.add("fa-chevron-down");
+    hide.childNodes[1].classList.toggle("fa-chevron-up");
+    hide.childNodes[1].classList.toggle("fa-chevron-down");
   }
 }
